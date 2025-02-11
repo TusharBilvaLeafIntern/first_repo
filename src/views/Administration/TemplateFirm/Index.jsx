@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import Breadcrumbs from "../../../components/BreadCrumbs";
+import AddImages from "../../../components/ImageModals/AddImagesModal";
 
 function TemplateFirm() {
   return (
-    <div>TemplateFirm</div>
-  )
+    <>
+      <Breadcrumbs
+        maintitle="Template Firm"
+        title="Dashboard"
+        subtitle="Template Firm"
+        modal="#add_user"
+        name="Add Images"
+      />
+      <AddImages />
+    </>
+  );
 }
 
-export default TemplateFirm
+export default TemplateFirm;

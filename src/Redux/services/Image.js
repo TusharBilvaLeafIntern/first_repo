@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { HTTPURL } from "../../Constent/Matcher";
+import { HTTPURL } from "../../Constant/Matcher";
 
 // add images
 export const addImages = createAsyncThunk(

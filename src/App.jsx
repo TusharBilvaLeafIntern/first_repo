@@ -1,9 +1,8 @@
-import { Routes, Route } from "react-router";
+import { Route, Routes } from "react-router";
 
-import "bootstrap/dist/css/bootstrap.min.css"
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';  
-import TemplateFirm from "./components/TemplateFirm";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import TemplateFirm from "./views/Administration/TemplateFirm/Index";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Routes>
         <Route path="template-firm" element={<TemplateFirm />} />
       </Routes>
-      
     </div>
   );
 }
